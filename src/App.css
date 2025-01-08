@@ -91,6 +91,28 @@ button:hover {
   margin-top: 10px;
 }
 
+.container{
+  margin: 30px auto;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 10px 10px rgb(233, 233, 233);
+}
+
+.infoContainer{
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: start;
+}
+
+img{
+  width: 450px;
+}
+
 /* Reszponzív dizájn */
 @media (max-width: 768px) {
 
